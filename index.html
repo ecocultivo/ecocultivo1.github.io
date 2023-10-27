@@ -10,8 +10,12 @@
     </head>
     <body>
         <header>
-            <h1>EcoCultivo</h1>
-            
+            <div class="logo">
+                <img src="logo.png" alt="Logo de la compañia"> 
+            <h1>EcoCultivo
+            <h6>¡Siembra hoy, siembra el futuro!</h6>
+            </h1>
+            </div>
             <div class="container-icon">
                 <div class="container-cart-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
@@ -25,9 +29,9 @@
                     <div class="row-product">
                         <div class="cart-product">
                             <div class="info-cart-product">
-                <span class="cantidad-producto-carrito">1</span>
-                <p class="titulo-producto-carrito">Imagen</p>
-                <span class="precio-producto-carrito">$50.000</span>
+                <span class="cantidad-producto-carrito"></span>
+                <p class="titulo-producto-carrito">El carrito de compra está vacío</p>
+                <span class="precio-producto-carrito"></span>
             </div>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-close">
                                 
@@ -39,55 +43,59 @@
 
         <div class="cart-total">
             <h3>Total:</h3>
-            <span class="total-pagar">$50.000</span>
+            <span class="total-pagar">$0</span>
         </div>
                 </div>
               </div>
     </header>
-    <div class="container-items">
+
+<div class="container-items">
         <div class="item">
                 <figure>
                     <img src="prototipo1.png" alt="producto"
                     />
                 </figure>
                 <div class="info-product">
-                    <h2>Imagen1</h2>
-                    <p class="price">$200.000</p>
+                    <h2>Sistema de riego EcoCultivo</h2>
+                    <p class="price">$1.200.000</p>
                     <button class="btn-add-cart">Añadir al carrito</button>
+
+                    <div class="title-description">
+                            <h4>Descripción:</h4>
+                        <div class="text-description">
+                            <p>Aquí irá la descripción del producto, diciendo que es y de que está hecho.</p>
+                            <p>Especificará como será el producto en la dimensión, color y demás.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="item">
+        </div>
+
+        <div class="item">
                 <figure>
                     <img src="prototipo2.png" alt="producto"
                     />
                 </figure>
                 <div class="info-product">
-                    <h2>Imagen2</h2>
-                    <p class="price">$500.000</p>
+                    <h2>Sistema de riego Ecocultivo #2</h2>
+                    <p class="price">$1.300.000</p>
                     <button class="btn-add-cart">Añadir al carrito</button>
+
+                    <div class="title-description">
+                            <h4>Descripción:</h4>
+                        <div class="text-description">
+                            <p>Aquí irá la descripción del producto, diciendo que es y de que está hecho.</p>
+                            <p>Especificará como será el producto en la dimensión, color y demás.</p>       
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="item">
-                <figure>
-                    <img src="prototipo3.png" alt="producto"/>
-                </figure>
-                <div class="info-product">
-                    <h2>Imagen3</h2>
-                    <p class="price">$300.000</p>
-                    <button class="btn-add-cart">Añadir al carrito</button>
-                </div>
-            </div>
-            <div class="item">
-                <figure>
-                    <img src="prototipo4.png" alt="producto"/>
-                </figure>
-                <div class="info-product">
-                    <h2>Imagen4</h2>
-                    <p class="price">$100.000</p>
-                    <button class="btn-add-cart">Añadir al carrito</button>
-                </div>
-            </div>
         </div>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
 
         <script src="index.js"></script>
 </body>
